@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/gamleegpt">
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/landing" element={<Landing />} />
