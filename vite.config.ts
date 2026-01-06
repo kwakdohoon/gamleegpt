@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/gamleegpt/', // 저장소 이름을 앞뒤에 슬래시(/)와 함께 적어주세요.
+  base: '/gamleegpt/', // 이 줄이 반드시 있어야 합니다!
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
